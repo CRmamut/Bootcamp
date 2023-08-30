@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class edadPerros {
+    public static void main(String[] args) {
+        Scanner cargaDeDatos = new Scanner(System.in);
+
+        System.out.println("Ingrese la edad de su  perro: ");
+        Integer edad = cargaDeDatos.nextInt();
+        Integer edadPerro = edad*7;
+        System.out.print("La edad de su perro es: " + edadPerro);
+
+    }
+
+}
