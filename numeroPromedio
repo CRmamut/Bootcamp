@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class numeroPromedio {
+    public static void main(String[] args){
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("ingresa el primer numero: ");
+        int primerNumero = teclado.nextInt();
+        System.out.println("ingresa el segundo numero: ");
+        int segundoNumero = teclado.nextInt();
+        System.out.println("ingresa el tercer numero: ");
+        int tercerNumero = teclado.nextInt();
+        double promedio = (double) (primerNumero+segundoNumero+tercerNumero)/3;
+        System.out.println("El promedio es: "+promedio);
+
+
+    }
+}
