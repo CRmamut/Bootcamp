@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Propinas {
+    public static void main(String[] args){
+        Scanner cargaDeDatos = new Scanner(System.in);
+        System.out.println("ingresa el total de la cuenta");
+        Double totalCuenta = cargaDeDatos.nextDouble();
+        System.out.println("ingresa el porcentaje de propina que deseas dejar");
+        Double porcentajePropina = cargaDeDatos.nextDouble();
+
+        Double propina = totalCuenta * ( porcentajePropina / 100);
+
+
+
+        System.out.println("la propina es  : " + propina);
+    }
+}
