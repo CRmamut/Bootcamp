@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class millasAKM {
+    public static void main(String[] args) {
+        Scanner cargaDeDatos = new Scanner(System.in);
+        System.out.println("Ingrese la distancia en millas: ");
+        Integer millas = cargaDeDatos.nextInt();
+        Double kilometros = (millas * 1.60934);
+        System.out.print("Cantidad de kilometros: " + kilometros);
+
+    }
+
+}
